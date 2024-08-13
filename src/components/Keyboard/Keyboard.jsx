@@ -6,7 +6,17 @@ const letters = [
 
 const Keyboard = () => {
 
+  const keys = letters.map((letter, index) => {
+    return <li key={index} className="keyboard__key">
+      <Key letter={letter} key={index} />
+    </li>
+  })
+
   return (
-    <div>Keyboard</div>
+    <div className="keyboard">
+      <ul className="keyboard__list-keys">
+        {keys}
+      </ul>
+    </div>
   )
 }

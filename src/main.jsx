@@ -8,10 +8,13 @@ import {
   RouterProvider
 } from 'react-router-dom'
 
+// Layouts
+import Menu from './layouts/Menu/Menu'
+
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <h1>Menu</h1>,
+    element: <Menu />,
     children: [
       {
         path: '/login',

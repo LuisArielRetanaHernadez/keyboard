@@ -1,4 +1,6 @@
 .logo {
+  padding: 5px;
+  border-radius: 4px;
   color: #000000;
   background-color: #ffff;
 }

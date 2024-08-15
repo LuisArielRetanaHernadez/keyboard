@@ -1,0 +1,12 @@
+.logo {
+  color: #0000;
+  background-color: #ffff;
+}
+
+.logo__text {
+  font-size: 1.2em;
+}
+
+.logo__macro {
+  font-size: 0.5em;
+}

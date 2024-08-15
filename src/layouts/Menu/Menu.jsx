@@ -3,11 +3,15 @@ import { Link } from "react-router-dom"
 import { Outlet } from "react-router-dom"
 
 import './Menu.style.css'
+import Logo from "../../components/Logo/Logo"
 
 const Menu = () => {
   return (
     <div>
       <div className="menu">
+        <div className="menu__logo">
+          <Logo />
+        </div>
         <nav className="menu__nav">
           <ul className="menu__list">
             <li className="menu__item">

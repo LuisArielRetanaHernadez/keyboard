@@ -4,3 +4,17 @@
   background-color: #1e201e;
   display: flex;
 }
+
+.menu__nav {
+  background-color: transparent;
+}
+
+.menu__list {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+.menu__item {
+  background-color: transparent;
+}

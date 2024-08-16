@@ -10,6 +10,7 @@ import {
 
 // Layouts
 import Menu from './layouts/Menu/Menu'
+import Game from './pages/Game/Game.page'
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/game',
-        element: <h1>Game</h1>
+        element: <Game />
       }
     ]
   }

@@ -1,7 +1,8 @@
 const Game = () => {
   return (
-    <div>
-      <h1>Game</h1>
+    <div className="game-key">
+      <div className="game-key__display"></div>
+      <div className="game-key__keyboard"></div>
     </div>
   )
 }

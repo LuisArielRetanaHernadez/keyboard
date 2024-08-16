@@ -19,3 +19,16 @@
 .menu__item {
   background-color: transparent;
 }
+
+/* links */
+
+.menu__link {
+  padding: 5px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #a02334;
+  display: inline-block;
+  cursor: pointer;
+}

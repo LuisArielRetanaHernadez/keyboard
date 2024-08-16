@@ -15,10 +15,10 @@ const Menu = () => {
         <nav className="menu__nav">
           <ul className="menu__list">
             <li className="menu__item">
-              <Link to='/login' className="menu__link" />
+              <Link to='/login' className="menu__link">Login</Link>
             </li>
             <li className="menu__item">
-              <Link to='/register' className="menu__link" />
+              <Link to='/register' className="menu__link">Register</Link>
             </li>
             <li className="menu__item">
               <button className="menu__link">Logout</button>
